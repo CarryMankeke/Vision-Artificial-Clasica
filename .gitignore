@@ -1,0 +1,71 @@
+# -----------------------
+# MATLAB autosave & backups
+# -----------------------
+*.asv
+*.m~
+*.mlx~
+*.autosave
+*.slx.r*
+*.mdl.r*
+*.bak
+*.tmp
+*.log
+
+# -----------------------
+# Derived / compiled files
+# -----------------------
+*.p
+*.mex*
+*.slxc
+*.mat
+*.ctf
+*.fig
+
+# -----------------------
+# MATLAB packaged files
+# -----------------------
+*.mlappinstall
+*.mlpkginstall
+*.mltbx
+
+# -----------------------
+# Code generation folders
+# -----------------------
+slprj/
+sccprj/
+codegen/
+.buildtool/
+helpsearch*/
+
+# -----------------------
+# SimBiology files
+# -----------------------
+*.sbproj.backup
+*.sbproj.bak
+
+# -----------------------
+# Misc
+# -----------------------
+.DS_Store
+Thumbs.db
+.MATLABDriveTag
+
+# -----------------------
+# MATLAB project-specific (opcional)
+# -----------------------
+*.prj
+*.mlproj
+
+# -----------------------
+# Project folders to ignore (ajusta si necesario)
+# -----------------------
+derived/
+old_save/
+resources/
+test/
+train/
+sources/
+
+
+# Por si copio un repo dentro del proyecto
+**/.git/
