@@ -17,7 +17,7 @@ dsTrain = imageDatastore(config.trainFolder);
 dsAnom  = imageDatastore(config.testAnomalyFolder);
 
 % 5. Generar y procesar múltiples escenas sintéticas
-numEscenas = 1;
+numEscenas = 5;
 for i = 1:numEscenas
     % Generar escena con golillas normales y anómalas
     escena = generarEscenaSintetica(config, dsTrain, dsAnom);

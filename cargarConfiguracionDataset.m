@@ -23,7 +23,7 @@ function config = cargarConfiguracionDataset()
     
     % Parámetros de selección de mejor detector
     config.circularityTol       = [0.98, 1.20]; % Tolerancia para circularidad
-    config.axisRatioTol   = [0.97, 1.03];
+    config.axisRatioTol   = [0.97, 1.20];
 
     % Parámetros de decisión basados en pixeles del dataset
     config.tolPct               = 0.10;      % ±10% tolerancia sobre radio nominal
